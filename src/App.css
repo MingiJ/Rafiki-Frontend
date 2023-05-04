@@ -432,8 +432,11 @@
   }
   
   .channel-list__header {
-    padding-left: 16px;
+    padding: 16px;
     height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .channel-list__header__text {
@@ -1819,9 +1822,13 @@
     }
   }
   
-  /* @media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     .channel-list__sidebar {
       display: none;
     }
-  } */
+  }
+
+  .fabars{
+    margin-right: 20px;
+  }
   
